@@ -1,4 +1,4 @@
-### **DIU Class Routine Android App** ###
+# **DIU Class Routine Android App** #
 
 Android app for class routine.
 
