@@ -3,6 +3,6 @@
 Android app for class routine.
 
 Features:
-* Downloads routine from server.
-* Separate download task.
-* Section for Deadlines and ExtraInfo.
+Downloads routine from server.
+Separate download task.
+Section for Deadlines and ExtraInfo.
