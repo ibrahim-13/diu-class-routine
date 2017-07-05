@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="led_color_names">
+        <item name="1">Green</item>
+        <item name="2">Red</item>
+    </string-array>
+    <string-array name="led_color_values">
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    <string-array name="notification_time_names">
+        <item name="1">Before 15 minutes</item>
+        <item name="2">Before 1 hour</item>
+    </string-array>
+    <string-array name="notification_time_values">
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+</resources>

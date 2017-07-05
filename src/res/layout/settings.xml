@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <PreferenceCategory android:title="Update">
+        <CheckBoxPreference
+            android:id="@+id/setting_id"
+            android:key="@string/settings_check_update_key"
+            android:title="@string/settings_check_update"
+            android:summary="@string/settings_check_update_summary"
+            android:defaultValue="@string/settings_check_update_default"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Notification">
+        <CheckBoxPreference
+            android:key="@string/settings_notification_key"
+            android:title="@string/settings_notification"
+            android:summary="@string/settings_notification_summary"
+            android:defaultValue="@string/settings_notification_default"/>
+        <ListPreference
+            android:key="@string/settings_notification_time_key"
+            android:title="@string/settings_notification_time"
+            android:summary="@string/settings_notification_time_summary"
+            android:entries="@array/notification_time_names"
+            android:entryValues="@array/notification_time_values"
+            android:defaultValue="@string/settings_notification_time_default"/>
+        <CheckBoxPreference
+            android:key="@string/settings_vibration_key"
+            android:title="@string/settings_vibration"
+            android:summary="@string/settings_vibration_summary"
+            android:defaultValue="@string/settings_vibration_default"/>
+        <CheckBoxPreference
+            android:key="@string/settings_sound_key"
+            android:title="@string/settings_sound"
+            android:summary="@string/settings_sound_summary"
+            android:defaultValue="@string/settings_sound_default"/>
+        <CheckBoxPreference
+            android:key="@string/settings_led_key"
+            android:title="@string/settings_led"
+            android:summary="@string/settings_led_summary"
+            android:defaultValue="@string/settings_led_default"/>
+        <CheckBoxPreference
+            android:key="@string/settings_light_status_bar_key"
+            android:title="@string/settings_light_status_bar"
+            android:summary="@string/settings_light_status_bar_summary"
+            android:defaultValue="@string/settings_light_status_bar_default"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="LED Color">
+        <ListPreference
+            android:key="@string/settings_led_color_key"
+            android:title="@string/settings_led_color"
+            android:summary="@string/settings_led_color_summary"
+            android:entries="@array/led_color_names"
+            android:entryValues="@array/led_color_values"
+            android:defaultValue="@string/settings_led_color_default"/>
+    </PreferenceCategory>
+</PreferenceScreen>

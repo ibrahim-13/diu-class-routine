@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">DIU Routine</string>
+    <string name="empty_string"></string>
+    <string name="action_info_title">Extra Info</string>
+    <string name="action_about_title">About DeV</string>
+    <string name="action_update_title">Update Now</string>
+    <string name="info_activity_label">Information</string>
+    <string name="about_activity_label">About</string>
+    <string name="button_next_label">Next</string>
+    <string name="button_reset_label">Reset</string>
+    <string name="button_deadlines_label">Deadliness</string>
+    <string name="no_classroutine_label">No ClassRoutine File Detected !</string>
+    <string name="no_classroutine_msg">Goto Menu->Update Now, to download the latest updated class routine and then press Refresh button</string>
+    <string name="buttor_refresh_label">Refresh</string>
+
+    <string name="settings_notification_key">setting_notification</string>
+    <string name="settings_notification">Show Notification</string>
+    <string name="settings_notification_summary">If not checked, other notification settings will not be applied</string>
+    <string name="settings_notification_default">true</string>
+
+    <string name="settings_sound_key">setting_notification_sound</string>
+    <string name="settings_sound">Notification Sound</string>
+    <string name="settings_sound_summary">Enable notification sound</string>
+    <string name="settings_sound_default">false</string>
+
+    <string name="settings_vibration_key">setting_notification_vibration</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_vibration_summary">Enable vibration</string>
+    <string name="settings_vibration_default">true</string>
+
+    <string name="settings_led_key">setting_notification_led</string>
+    <string name="settings_led">Notification LED</string>
+    <string name="settings_led_summary">Enable notification LED light</string>
+    <string name="settings_led_default">true</string>
+
+    <string name="settings_check_update_key">setting_check_update</string>
+    <string name="settings_check_update">Check Update</string>
+    <string name="settings_check_update_summary">Check for update at app launch</string>
+    <string name="settings_check_update_default">true</string>
+
+    <string name="settings_led_color_key">setting_led_color</string>
+    <string name="settings_led_color">LED Color</string>
+    <string name="settings_led_color_summary">Set color of the notification LED</string>
+    <string name="settings_led_color_default">1</string>
+
+    <string name="settings_light_status_bar_key">setting_light_status_bar</string>
+    <string name="settings_light_status_bar">Light Status Bar</string>
+    <string name="settings_light_status_bar_summary">Inverts the icon color of status bar. Only applicable for supported devices.</string>
+    <string name="settings_light_status_bar_default">false</string>
+
+    <string name="settings_notification_time_key">setting_notification_time</string>
+    <string name="settings_notification_time">Notification Time</string>
+    <string name="settings_notification_time_summary">Set when notification will be shown.</string>
+    <string name="settings_notification_time_default">1</string>
+</resources>
